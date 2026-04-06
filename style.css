@@ -33,6 +33,7 @@ body{
   box-shadow: 0 0 1rem rgba(0,0,0,0.3);
   font-size: 8vmin;
   color: #bd581e;
+  background-color: #d8d9b2;
 }
 #reset-btn{
   padding: 1rem;
@@ -42,10 +43,31 @@ body{
   border-radius: 1rem;
    border: none;
 }
+#new-btn{
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #122708;
+  color: azure;
+  border-radius: 1rem;
+   border: none;
+}
+#msg{
+  color: #fffc2f;
+  font-size: 5vmin;
+}
+.msg-container{
+  height: 50vmin;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
 
+}
 
-
-
+.hide{
+  display: none;
+}
 
 
 
